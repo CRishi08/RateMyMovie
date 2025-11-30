@@ -1,0 +1,94 @@
+/* Container styling */
+.container {
+  max-width: 420px;
+  margin: 70px auto;
+  padding: 35px 30px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Heading */
+.page-header {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #222;
+}
+
+/* Login box */
+.login-container {
+  width: 100%;
+}
+
+/* Form labels */
+.login-container label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+  color: #444;
+}
+
+/* Inputs */
+.login-container .form-control {
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  padding-left: 12px;
+  border: 1px solid #d1d1d1;
+  margin-top: 5px;
+  outline: none;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.login-container .form-control:focus {
+  border-color: #6c63ff;
+  box-shadow: 0px 0px 8px rgba(108, 99, 255, 0.3);
+}
+
+/* Sign in Button */
+.button button {
+  width: 100%;
+  height: 45px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #6c63ff, #5e54e3);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 4px 12px rgba(108, 99, 255, 0.4);
+}
+
+/* Signup link */
+a {
+  color: #6c63ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Sign up section */
+.login-container .signup-line {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+}
